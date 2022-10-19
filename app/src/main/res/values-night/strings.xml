@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">Home</string>
+    <string name="orders">Orders</string>
+    <string name="new_order">New Order</string>
+    <string name="notifications">Notifications</string>
+    <string name="my_account">My Account</string>
+    <string name="content_description">null</string>
+</resources>

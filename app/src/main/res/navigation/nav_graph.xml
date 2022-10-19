@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.ft.laundrycomeshome.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/fragment_home" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/orders_fragment"
+        android:name="com.ft.laundrycomeshome.OrdersFragment"
+        android:label="orders_fragment"
+        tools:layout="@layout/fragment_orders" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/new_order_fragment"
+        android:name="com.ft.laundrycomeshome.NewOrderFragment"
+        android:label="new_order_fragment"
+        tools:layout="@layout/fragment_new_order" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/notification_fragment"
+        android:name="com.ft.laundrycomeshome.NotificationsFragment"
+        android:label="notifications_fragment"
+        tools:layout="@layout/fragment_notifications">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/my_account_fragment"
+        android:name="com.ft.laundrycomeshome.MyAccountFragment"
+        android:label="my_account_fragment"
+        tools:layout="@layout/fragment_my_account">
+
+    </fragment>
+
+</navigation>
