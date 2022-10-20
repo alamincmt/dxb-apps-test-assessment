@@ -1,4 +1,4 @@
-package com.ft.laundrycomeshome
+package com.ft.laundrycomeshome.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

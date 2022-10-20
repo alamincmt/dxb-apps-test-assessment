@@ -4,24 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-<!--    <fragment-->
-<!--        android:id="@+id/fragment_container"-->
-<!--        android:name="androidx.navigation.fragment.NavHostFragment"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:layout_marginBottom="58dp"-->
-<!--        app:defaultNavHost="true"-->
-<!--        app:navGraph="@navigation/nav_graph" />-->
+    tools:context=".ui.MainActivity">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.ft.laundrycomeshome.HomeFragment"
+        android:name="com.ft.laundrycomeshome.ui.HomeFragment"
         android:layout_marginBottom="58dp" />
-
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomAppBar"

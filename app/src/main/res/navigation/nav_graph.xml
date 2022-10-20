@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/home_fragment"
-        android:name="com.ft.laundrycomeshome.HomeFragment"
+        android:name="com.ft.laundrycomeshome.ui.HomeFragment"
         android:label="home_fragment"
         tools:layout="@layout/fragment_home" >
 
@@ -15,7 +15,7 @@
 
     <fragment
         android:id="@+id/orders_fragment"
-        android:name="com.ft.laundrycomeshome.OrdersFragment"
+        android:name="com.ft.laundrycomeshome.ui.OrdersFragment"
         android:label="orders_fragment"
         tools:layout="@layout/fragment_orders" >
 
@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/new_order_fragment"
-        android:name="com.ft.laundrycomeshome.NewOrderFragment"
+        android:name="com.ft.laundrycomeshome.ui.NewOrderFragment"
         android:label="new_order_fragment"
         tools:layout="@layout/fragment_new_order" >
 
@@ -31,7 +31,7 @@
 
     <fragment
         android:id="@+id/notification_fragment"
-        android:name="com.ft.laundrycomeshome.NotificationsFragment"
+        android:name="com.ft.laundrycomeshome.ui.NotificationsFragment"
         android:label="notifications_fragment"
         tools:layout="@layout/fragment_notifications">
 
@@ -39,7 +39,7 @@
 
     <fragment
         android:id="@+id/my_account_fragment"
-        android:name="com.ft.laundrycomeshome.MyAccountFragment"
+        android:name="com.ft.laundrycomeshome.ui.MyAccountFragment"
         android:label="my_account_fragment"
         tools:layout="@layout/fragment_my_account">
 
